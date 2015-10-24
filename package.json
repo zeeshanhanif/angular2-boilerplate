@@ -29,6 +29,7 @@
     "gulp": "^3.9.0",
     "gulp-live-server": "0.0.29",
     "gulp-nodemon": "^2.0.4",
+    "gulp-rimraf": "^0.2.0",
     "gulp-typescript": "^2.9.2",
     "gulp-watch": "^4.3.5",
     "live-server": "^0.8.2",
