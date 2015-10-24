@@ -1,0 +1,28 @@
+{
+  "name": "angular2-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic Structure for Angular 2 Application",
+  "scripts": {
+    "tsc": "tsc -w",
+    "start": "live-server --open=src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshanhanif/angular2-boilerplate.git"
+  },
+  "keywords": ["angular2","angular","angular2 boilerplate","boilerplate"],
+  "author": "Zeehsan Hanif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeeshanhanif/angular2-boilerplate/issues"
+  },
+  "homepage": "https://github.com/zeeshanhanif/angular2-boilerplate#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.44",
+    "systemjs": "0.19.2"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
