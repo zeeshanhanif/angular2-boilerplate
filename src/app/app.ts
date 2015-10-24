@@ -8,7 +8,7 @@ import {Component, bootstrap, FORM_DIRECTIVES,CORE_DIRECTIVES} from 'angular2/an
 	directives : [FORM_DIRECTIVES,CORE_DIRECTIVES]
 })
 class AppComponent {
-	public appTitle = "Hello Angular 2 test "
+	public appTitle = "Hello Angular 2"
 }
 
 bootstrap(AppComponent);	

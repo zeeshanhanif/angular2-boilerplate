@@ -6,7 +6,7 @@ import * as ts from 'gulp-typescript';
 var rimraf = require('gulp-rimraf');
 var serve = require('gulp-live-server');
 
-gulp.task('build',['clean','copy-static-files'],function (){
+gulp.task('build',['copy-static-files'],function (){
 	var tsProject = ts.createProject('./src/tsconfig.json');
 	var tsResult = tsProject.src().pipe(ts(tsProject));
 	return tsResult.js.pipe(gulp.dest('build'));;
@@ -43,9 +43,7 @@ gulp.task('serve', ['build','watch-client'], function(){
   //gulp.watch(['build/**/*.js', 'build/**/*.html'], function (file) {
   //  server.notify.apply(server, [file]);
   //});
-})
-
-
+});
 
 gulp.task('watch-client', function() {
   gulp.watch('./src/**/*.*', ['build']);
