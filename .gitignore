@@ -1,5 +1,7 @@
 .idea
 node_modules
 npm-debug.log
+typings
+build
 *.js
 *.js.map

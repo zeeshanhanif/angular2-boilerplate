@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Basic Structure for Angular 2 Application",
   "scripts": {
-    "tsc": "tsc -w",
-    "start": "live-server --open=src"
+    "start": "tsc -target es5 -module commonjs gulpfile.ts && gulp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zeeshanhanif/angular2-boilerplate.git"
   },
-  "keywords": ["angular2","angular","angular2 boilerplate","boilerplate"],
+  "keywords": [
+    "angular2",
+    "angular",
+    "angular2 boilerplate",
+    "boilerplate"
+  ],
   "author": "Zeehsan Hanif",
   "license": "ISC",
   "bugs": {
@@ -22,7 +26,13 @@
     "systemjs": "0.19.2"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-live-server": "0.0.29",
+    "gulp-nodemon": "^2.0.4",
+    "gulp-typescript": "^2.9.2",
+    "gulp-watch": "^4.3.5",
     "live-server": "^0.8.2",
+    "rimraf": "^2.4.3",
     "typescript": "^1.6.2"
   }
 }
